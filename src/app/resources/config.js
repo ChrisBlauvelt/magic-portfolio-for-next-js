@@ -1,4 +1,4 @@
-const baseURL = 'demo.app'
+const baseURL = 'techieneighbor.net'
 
 // Enable localization
 const i18n = false;
