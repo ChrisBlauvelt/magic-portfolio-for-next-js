@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>TechieNeighbor</>,
-    subline: <>I'm Chris, the proud operator at <InlineCode>Techie Neighbor LLC</InlineCode>, where I assist businessess and neighbors <br/> untangle their complicated digital lives. After hours, I build my own projects.</>
+    subline: <>I'm Chris, the proud operator at <InlineCode>Techie Neighbor LLC</InlineCode>, where I assist businessess and neighbors <br/> untangle their complicated digital lives. After hours, I cosplay a web-developer and spend far too much time creating infrastructure in my linux and NixOS homelab and look forward to contributing to the open source community more ion the coming months.</>
 }
 
 const about = {
@@ -72,33 +72,29 @@ const about = {
         description: <>Chris loves to take on complicated challenges head first, and the challenge of integrating many systems into a unified and user-friendly interface.</>
     },
     work: {
-        display: false, // set to false to hide this section
+        display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: '360 Smart Networks',
+                timeframe: '2022 - 2024',
+                role: 'Deploymnet | Project Engineer',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>Developed and maintained processes and best-practice documentation for software integration, UNIX command-line best practices for appliance-based distributions, as well as Microsoft Entra I.D. and Azure.</>,
+                    <>Collaborated with cross-functional teams to meet expected deadlines and targets, while maintaining stringent security and network administration practices & protocols for a Managed Service Provider undergoing a rapid growth period. </>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
-                        src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
-                        width: 16,
-                        height: 9
                     }
                 ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                company: 'Lorenzo Provisions',
+                timeframe: '2009 - 2021',
+                role: 'Service Industry Veteran'
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Having worked in restaruants and hospitality industries since High School, my work ethic and interactions are informed by my wealth of customer service expertise.</>,
+                    <>Diverse and non-traditional technical background reinforces my ability to think differently than the average SysAdmin, allowing me to utilize the UNIX skills that were forged by way of a thousand re-installations of Arch (and every other distro under the sun, of) Linux.</>
                 ],
                 images: [ ]
             }
@@ -119,8 +115,8 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                title: 'Integrations/Autmoations',
+                description: <>Able to integrate products that are connected to various networks from various vendors, as well as design and implement the network infrastrucutre to support it all reliably.</>,
                 images: [
                     {
                         src: '/images/projects/project-01/cover-02.jpg',
@@ -137,8 +133,8 @@ const about = {
                 ]
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                title: 'Troubleshooting/Remote Support',
+                description: <>Extremely adept at quickly and accurately determining the source of a wide range of technical issues that relate to networking, audio/visual, electrical signals, and the like.</>,
                 images: [
                     {
                         src: '/images/projects/project-01/cover-04.jpg',
@@ -154,7 +150,7 @@ const about = {
 
 const blog = {
     label: 'Blog',
-    title: 'Writing about design and tech...',
+    title: 'Writing about tech and the wonderful (and awful) interactions that are linked to our daily lives..',
     description: `Read what ${person.name} has been up to recently`
     // Create new blog posts by adding a new .mdx file to app/blog/posts
     // All posts will be listed on the /blog route
@@ -163,7 +159,7 @@ const blog = {
 const work = {
     label: 'Work',
     title: 'My projects',
-    description: `Design and dev projects by ${person.name}`
+    description: `Installations, Repairs, and Integrations by ${person.name}`
     // Create new project pages by adding a new .mdx file to app/blog/posts
     // All projects will be listed on the /home and /work routes
 }
