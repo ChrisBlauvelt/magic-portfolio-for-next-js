@@ -91,7 +91,7 @@ const about = {
             {
                 company: 'Lorenzo Provisions',
                 timeframe: '2009 - 2021',
-                role: 'Service Industry Veteran'
+                role: 'Service Industry Veteran',
                 achievements: [
                     <>Having worked in restaruants and hospitality industries since High School, my work ethic and interactions are informed by my wealth of customer service expertise.</>,
                     <>Diverse and non-traditional technical background reinforces my ability to think differently than the average SysAdmin, allowing me to utilize the UNIX skills that were forged by way of a thousand re-installations of Arch (and every other distro under the sun, of) Linux.</>
