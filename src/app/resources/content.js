@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>TechieNeighbor</>,
-    subline: <>I'm Chris, the proud operator at <InlineCode>Techie Neighbor LLC</InlineCode>, where I assist businessess and neighbors <br/> untangle their complicated digital lives. After hours, I cosplay a web-developer and spend far too much time creating infrastructure in my linux and NixOS homelab and look forward to contributing to the open source community more ion the coming months.</>
+    subline: <>I'm Chris, the proud operator at <InlineCode>Techie Neighbor LLC</InlineCode>, where I assist businessess and neighbors untangle their complicated digital lives. After hours, I practice my web-development and spend far too much time creating infrastructure in my Linux and NixOS homelab to stay current with the newest tech and look forward to contributing to the open source community more ion the coming months.</>
 }
 
 const about = {
@@ -83,10 +83,7 @@ const about = {
                     <>Developed and maintained processes and best-practice documentation for software integration, UNIX command-line best practices for appliance-based distributions, as well as Microsoft Entra I.D. and Azure.</>,
                     <>Collaborated with cross-functional teams to meet expected deadlines and targets, while maintaining stringent security and network administration practices & protocols for a Managed Service Provider undergoing a rapid growth period. </>
                 ],
-                images: [ // optional: leave the array empty if you don't want to display images
-                    {
-                    }
-                ]
+                images: [ ]
             },
             {
                 company: 'Lorenzo Provisions',
